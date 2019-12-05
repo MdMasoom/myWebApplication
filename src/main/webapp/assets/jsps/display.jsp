@@ -8,9 +8,9 @@
 </head>
 <body>
 
-number:${ modelclass.number }
-name:${ modelclass.name }
-salary:${ modelclass.salary }
+<b>number:${ modelclass.number }</b>
+<b>name:${ modelclass.name }</b>
+<b>salary:${ modelclass.salary }</b>
 
 </body>
 </html>
