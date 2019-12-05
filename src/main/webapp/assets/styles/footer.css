@@ -1,0 +1,11 @@
+/*--------Footer Section--------*/
+
+#footer{
+    background: #333;
+    color: #fff;
+    padding: 5px;
+}
+.fa-heart-o {
+    margin: 8px;
+    color: red;
+}

@@ -1,0 +1,77 @@
+/*---------------Animations---------------*/
+
+.navbar-brand span {
+    animation: Masoom 10s infinite;
+}
+@keyframes Masoom {
+    0% {
+        color: #ff1aff;
+    }
+    25% {
+        color: #ff1a75;
+    }
+    50% {
+        color: #ffbb33;
+    }
+    75% {
+        color: #bfff00;
+    }
+    100% {
+        color: #e6ac00;
+    }
+    125% {
+        color: #00e6e6;
+    }
+    150% {
+        color: #a3297a;
+    }
+    175% {
+        color: #cc0000;
+    }
+    200% {
+        color: #1affff;
+    }
+    225% {
+        color: #adc2eb;
+    }
+    250% {
+        color: #b3ffb3;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---------------Navbar Section---------------*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+   z-index: 20;
+}
+.navbar-brand span {
+    font-weight: 1000;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 20px;
+}  
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: left;;
+    text-align: left;
+}
+#nav-bar ul li a:hover {
+    color: #ffffff!important;
+} 
+.navbar-toggler {
+    border: none !important;
+}
+.nav-link {
+    color: #000000 !important;;
+    font-weight: 600;
+    font-size: 15px; 
+}
